@@ -48,4 +48,13 @@ public class Country implements Serializable {
 		this.name = name;
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Country [id=" + id + ", currency=" + currency + ", name="
+				+ name + "]";
+	}
+
 }
